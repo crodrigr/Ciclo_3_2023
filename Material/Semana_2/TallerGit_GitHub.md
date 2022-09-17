@@ -1,5 +1,11 @@
 # Taller de Git y GitHub. 
 
+Esta son algunas notas para tener encuenta en este taller. 
+
+1. Tener instaldo el git en su pc. Validar con el comando git --version
+2. Realizar la configuración de las variables globales de user y email de git
+3. Cadad cambio que relice en el index.html debe guardar, si no el commit no toma los cambios. 
+
 ## 1.Crear un directorio en la unidad C que hace referencia al proyecto. 
 
 
