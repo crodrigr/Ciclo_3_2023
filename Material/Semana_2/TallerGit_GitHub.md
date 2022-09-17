@@ -76,7 +76,7 @@ Se toma la foto y se verifica que fue tomada en la rama test
 
 ## 11. Cambio de rama de test a master. 
 
-Se observa que carga el archivo index.html de la rama master y no están los cambios que se hicieron en index.html de la rama test. 
+Se observa que carga el archivo index.html de la rama master y no están los cambios que se hicieron en index.html de la rama test del punto 10. 
 
 ![image](https://user-images.githubusercontent.com/31961588/190837836-28b68c4b-c609-4c1d-ad30-2df2757cb279.png)
 
