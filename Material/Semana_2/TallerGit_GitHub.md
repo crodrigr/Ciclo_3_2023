@@ -70,7 +70,14 @@ Se observa que se creo la rama test
 
 ![image](https://user-images.githubusercontent.com/31961588/190837596-8b9210e8-9e6d-44d9-b708-562a2eab2142.png)
 
+Se toma la foto y se verifica que fue tomada en la rama test
+
 ![image](https://user-images.githubusercontent.com/31961588/190837659-4a117e46-c863-496e-8365-0594bb40d43d.png)
 
+## 11. Cambio de rama de test a master. 
+
+Se observa que carga el archivo index.html de la rama master y no están los cambios que se hicieron en index.html de la rama test. 
+
+![image](https://user-images.githubusercontent.com/31961588/190837836-28b68c4b-c609-4c1d-ad30-2df2757cb279.png)
 
 
