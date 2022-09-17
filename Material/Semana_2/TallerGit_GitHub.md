@@ -66,3 +66,11 @@ Se observa que se creo la rama test
 
 ![image](https://user-images.githubusercontent.com/31961588/190837540-3a72c462-de03-4506-beb8-2bfdef4e2545.png)
 
+## 10. En la rama test hacer un cambio en index.html y tomar foto. 
+
+![image](https://user-images.githubusercontent.com/31961588/190837596-8b9210e8-9e6d-44d9-b708-562a2eab2142.png)
+
+![image](https://user-images.githubusercontent.com/31961588/190837659-4a117e46-c863-496e-8365-0594bb40d43d.png)
+
+
+
