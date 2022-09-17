@@ -44,3 +44,11 @@ Se observa que archivo index.html no esta siendo seguido por el git. Entoces se 
 Se observa que el index.html fue agregado al stage y quedo en pendiente su commit (tomar la foto).
 
 ![image](https://user-images.githubusercontent.com/31961588/190837258-667639f9-6075-4f53-8d3e-ccf9700f2b54.png)
+
+## 6. Hacer el commit (tomar la foto) de todos los archivos que están en stage. 
+
+Se observa que index.html se hizo el commit y no hay cambios pendientes. 
+
+![image](https://user-images.githubusercontent.com/31961588/190837384-5186ca32-f2ae-4f46-a5df-cadfa353a384.png)
+
+
