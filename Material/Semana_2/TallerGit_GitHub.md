@@ -62,5 +62,7 @@ Se observa que index.html se hizo el commit y no hay cambios pendientes.
 
 ## 9. Crear una nueva rama
 
+Se observa que se creo la rama test
+
 ![image](https://user-images.githubusercontent.com/31961588/190837540-3a72c462-de03-4506-beb8-2bfdef4e2545.png)
 
