@@ -42,8 +42,6 @@ Con los correos de los miembros del equipo se puede hacer la invitación al proy
 ![image](https://user-images.githubusercontent.com/31961588/190879830-50c20aa4-c18e-4036-bfc9-6aac485b3307.png)
 
 
-![image](https://user-images.githubusercontent.com/31961588/190879833-15237a73-9ff8-4d6f-8c75-b14107d584fe.png)
-
 ![image](https://user-images.githubusercontent.com/31961588/190879838-c28f7604-a03c-4fe0-9e42-8642c733fb0e.png)
 
 ![image](https://user-images.githubusercontent.com/31961588/190879884-ebfee34d-9ce9-4e35-81a8-cddfbb7afff6.png)
