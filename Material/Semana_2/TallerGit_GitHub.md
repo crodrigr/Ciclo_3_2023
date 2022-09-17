@@ -85,6 +85,33 @@ Se observa que carga el archivo index.html de la rama master y no están los cam
 Se observa que estamos en la rama master y ejecutamos el comando **git merge test** para unir lo que hay en master con lo de test. En el archivo index.htlm se agrego el cambo que se hizo en test. 
 
 
-
 ![image](https://user-images.githubusercontent.com/31961588/190838063-5bdb4423-d95d-484f-8a0b-f481ba440631.png)
+
+## 13. Resolver conflicto de un merge. 
+
+Cuando se hace un merge que es unir los cambios que se tiene en un mismo archivo de ramas distintas. El conflicto se puede resolver de dos formas: automaticamente y manual. Automatica lo resulve git, siempre es cuando se hace cambios de un solo lado, es decir de una rama y no de la otra, y manual se presenta cuando se hace cambios del mismo archivo en las dos ramas, entonces el git no sabe cual van hacer los cambios finales y por eso no lo hace automaticamente para no sobreescribir ningún cambio.
+
+### 13.1 Realizar cambio y tomar foto en index.html de la rama master. 
+
+![image](https://user-images.githubusercontent.com/31961588/190838483-bb590d25-6a23-445b-9628-426e739da7ea.png)
+
+### 13.2 Realizar cambio y tomar foto en index.html de la rama test 
+
+**Cambio de rama de master a test**
+
+![image](https://user-images.githubusercontent.com/31961588/190838528-633f29c1-1833-4274-a07c-95fc8219fd35.png)
+
+![image](https://user-images.githubusercontent.com/31961588/190838586-02b057d6-0f63-45ce-9f84-57aa8aa19e74.png)
+
+### 13.2 Hacer el merge de test a master. Debe estar en master. 
+
+Se observa que el merge generó un conflicto que no lo pudo resovler de forma automatica el git
+
+![image](https://user-images.githubusercontent.com/31961588/190838625-c4179d1c-bb7e-40e9-bfc6-0fa3146738fd.png)
+
+Se hace el ajuste manula en el index.html de como va quedar en su versión final y luego de toma la foto.
+
+![image](https://user-images.githubusercontent.com/31961588/190838688-c8d7bd80-35e2-4071-a923-66b4073ee317.png)
+
+
 
