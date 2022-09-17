@@ -52,3 +52,15 @@ Se observa que index.html se hizo el commit y no hay cambios pendientes.
 ![image](https://user-images.githubusercontent.com/31961588/190837384-5186ca32-f2ae-4f46-a5df-cadfa353a384.png)
 
 
+## 7. Historia de las fotos tomadas de nuestro repositorio git local.
+
+![image](https://user-images.githubusercontent.com/31961588/190837438-8e8967ad-4f7b-474a-b2ef-49cfb6a7a52c.png)
+
+## 8. Comando para ver las ramas del git. 
+
+![image](https://user-images.githubusercontent.com/31961588/190837466-58ada30b-b882-430f-8d5f-0be18158d988.png)
+
+## 9. Crear una nueva rama
+
+![image](https://user-images.githubusercontent.com/31961588/190837540-3a72c462-de03-4506-beb8-2bfdef4e2545.png)
+
