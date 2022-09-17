@@ -33,4 +33,14 @@ Se puede observar en el dictorio del proyecto en archivos ocultos que se creo un
 </body>
 </html>
 ```
+## 4. Con el comando git status se puede revisar el estado de los cambios que tiene los archivos del proyecto. 
 
+Se observa que archivo index.html no esta siendo seguido por el git. Entoces se debe agregar al stage. 
+
+![image](https://user-images.githubusercontent.com/31961588/190837166-18a75cd6-bda8-4f1a-9858-525f23fe4d12.png)
+
+## 5. Agregar cambios de archivos al stage con el comando git add . 
+
+Se observa que el index.html fue agregado al stage y quedo en pendiente su commit (tomar la foto).
+
+![image](https://user-images.githubusercontent.com/31961588/190837258-667639f9-6075-4f53-8d3e-ccf9700f2b54.png)
