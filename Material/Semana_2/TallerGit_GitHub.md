@@ -82,7 +82,7 @@ Se observa que carga el archivo index.html de la rama master y no están los cam
 
 ## 12. Hacer un merge de la rama test a master. Es decir copiar lo realizado en test y unirlo a la rama master. 
 
-Se observa que estamos en la rama master y ejecutamos el comando **git merge test** para unir lo que hay en master con lo de test. En el arhcivo index.htlm se agrego el cambo que se hizo en test. 
+Se observa que estamos en la rama master y ejecutamos el comando **git merge test** para unir lo que hay en master con lo de test. En el archivo index.htlm se agrego el cambo que se hizo en test. 
 
 
 
