@@ -16,7 +16,7 @@ Aplicamos las opciones que están en recuadro rojo. Definimos el nombre del repo
 
 ## 3. Relacionar el repositorio local con el repositorio del gitHub. 
 
-En este caso lo relizado en el taller 1 se tiene construido el repositorio local, por lo tanto, se toma la opción dos:
+Apartir de lo realizado en el taller 1 se tiene construido el repositorio local, por lo tanto, se toma la opción dos:
 
 
 ![image](https://user-images.githubusercontent.com/31961588/190839051-fc92e68c-2577-49ab-82d0-0ee87aa2e66f.png)
@@ -39,3 +39,11 @@ Recuerde que para subir cambios usamos el push y para bajar el pull. El comando 
 
 ![image](https://user-images.githubusercontent.com/31961588/190839243-c3111118-5278-4f49-b8f9-0a6c0dfac1e7.png)
 
+## 4. Hacer un cambio en el index.html y actulizar el repositorio local. 
+
+
+![image](https://user-images.githubusercontent.com/31961588/190839341-f2585966-ac27-4478-92ac-698a76e28b7e.png)
+
+### 4.1 Hacer pull en el repositorio local 
+
+![image](https://user-images.githubusercontent.com/31961588/190839379-0b80938a-ae2e-4052-83bf-d7a5267fd259.png)
