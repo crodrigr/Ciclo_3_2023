@@ -48,4 +48,37 @@ Con los correos de los miembros del equipo se puede hacer la invitación al proy
 
 ![image](https://user-images.githubusercontent.com/31961588/190879924-63fb7676-0131-4903-9b00-eefba323e872.png)
 
+## 6. Crear incidencias. 
+
+![image](https://user-images.githubusercontent.com/31961588/190880289-c448e82f-de75-4d3a-91d1-54366af849dc.png)
+
+### 6.1 Crear historia de usuario. 
+
+![image](https://user-images.githubusercontent.com/31961588/190880332-f3dc1c78-1362-40a7-b7c2-77d52e14873a.png)
+
+### 7. Backlog del producto
+
+![image](https://user-images.githubusercontent.com/31961588/190880468-14adc6cf-b4cf-47e8-b87c-fb9acfb43fc6.png)
+
+
+### 8. Estimar historias de usuario.
+
+![image](https://user-images.githubusercontent.com/31961588/190880578-4ff674b2-c907-4680-9908-afc391efb16c.png)
+
+
+### 9. Crear sprint
+
+![image](https://user-images.githubusercontent.com/31961588/190880618-5b9b96de-b641-4449-b1c2-6321a6bc502b.png)
+
+![image](https://user-images.githubusercontent.com/31961588/190880651-229f887c-223a-4988-bc32-4c87b5c1a745.png)
+
+![image](https://user-images.githubusercontent.com/31961588/190880662-ab710765-c0da-4417-a475-9b4ee1af799f.png)
+
+### 10. Asignar responsable a cada incidencia. 
+
+![image](https://user-images.githubusercontent.com/31961588/190880691-e3521f36-33fc-4a72-b72e-92f8667cdeaa.png)
+
+
+
+
 
