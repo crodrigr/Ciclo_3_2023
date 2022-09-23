@@ -3,6 +3,7 @@
 ### Requerimientos:
 
 - Instalado mysql y workbench 
+- [Video de instalación](https://www.youtube.com/watch?v=iYvGdjCR_uk)
 - [descargar](https://dev.mysql.com/downloads/workbench/)
 
 ## 1. Descargar mysql y workbench
