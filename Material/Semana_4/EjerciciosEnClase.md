@@ -97,3 +97,63 @@ function myFunction(){
 
 }
 ```
+
+## 3. Adivinar número.
+
+![image](https://user-images.githubusercontent.com/31961588/193181477-07d329b6-3b2a-4ffa-9eb3-d023c4c78f96.png)
+
+**index.html**
+
+```Html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aprendiendo JavaScript</title>   
+    <script src="app.js"></script> 
+</head>
+<body onload="generarNumRamdo()">
+
+<h2>My First JavaScript</h2>
+<h1 id="numIntentos"></h1>
+<input id="intento" placeholder="intento">
+<button type="button" onclick="myFunction()">Submit</button>
+<p id="demo"></p>
+
+</body>
+</html> 
+```
+
+**app.js**
+
+```JavaScript
+let valor=0;
+let numIntentos=0;
+
+function generarNumRamdo(){
+    valor=Math.floor(Math.random() * 100);
+    console.log(valor);
+
+}
+
+function myFunction(){
+
+    let intento=document.getElementById("intento").value;
+    let pista="";
+    if(intento!=valor){
+    if(valor>intento){
+       pista="El número es mayor";  
+    }else{
+        pista="El número es menor";
+    }    
+    }else{
+       pista="Correcto!";
+    }
+    numIntentos++;
+    document.getElementById("numIntentos").innerHTML=numIntentos;
+    document.getElementById("demo").innerHTML=pista;
+    
+    
+}
+
+
+```
