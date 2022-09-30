@@ -50,3 +50,50 @@ function myFunction(){
 
 }
 ```
+
+## 2. Dibujo con asteriscos. 
+
+
+![image](https://user-images.githubusercontent.com/31961588/193166918-ccc9417a-5f51-432d-a2ce-78b2159d0e42.png)
+
+**index.html**
+
+```Html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aprendiendo JavaScript</title>  
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <h2>Serie de Collatz</h2>
+    
+    <input id="altura" placeholder="altura">
+    <input id="ancho" placeholder="ancho">
+    <button type="button" onclick="myFunction()">Submit</button>
+    <p id="demo"></p>
+
+</body>
+</html>
+```
+**app.js**
+
+```JavaScript
+function myFunction(){
+   
+   let altura = document.getElementById("altura").value;
+   let ancho  = document.getElementById("ancho").value;
+   let dibujo="";
+   for(let i=0;i<altura;i++){
+       for(let j=0;j<ancho;j++){
+           dibujo+="*";
+       }
+       dibujo+="<br>";
+   }
+
+   document.getElementById("demo").innerHTML=dibujo;
+
+}
+```
