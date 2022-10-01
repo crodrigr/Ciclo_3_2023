@@ -160,7 +160,8 @@ function myFunction(){
 
 ### 4. Calculadora
 
-![image](https://user-images.githubusercontent.com/31961588/193384052-59dcbec3-4727-4b42-bfd5-446276819a42.png)
+![image](https://user-images.githubusercontent.com/31961588/193384110-d29ac6f5-0626-4b79-991f-e5f410525667.png)
+
 
 
 **index.html**
