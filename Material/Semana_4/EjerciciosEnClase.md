@@ -157,3 +157,154 @@ function myFunction(){
 
 
 ```
+
+### 4. Calculadora
+
+![image](https://user-images.githubusercontent.com/31961588/193384052-59dcbec3-4727-4b42-bfd5-446276819a42.png)
+
+
+**index.html**
+
+```Html
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Calculadora</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container pt-3 my-5 bg-success text-white border">
+
+        <h1></h1>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <di class="row p-5">
+                    <div class="col-sm-8 border">
+                        <form id="forma">
+                            <div class="mb-3">
+                                <label for="operandoA">Operando A</label>
+                                <input type="number" class="form-control" placeholder="Operando A" id="operandoA" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="operandoB">Operando B</label>
+                                <input type="number" class="form-control" placeholder="Operando B" id="operandoB">
+                            </div>
+                            <div class="mb-3">
+                                <label for="resultado">Resultado</label>
+                                <input type="number" class="form-control" placeholder="0" disabled id="resultado">
+                            </div>
+                            <p id="error" class="text-danger"></p>
+                        </form>
+                    </div>
+                    <div class="col-sm-4 border">
+                        <button type="button" onclick="operacion(1)"  class="btn btn-warning botones ">+</button>
+                        <button type="button" onclick="operacion(2)" class="btn btn-warning botones ">-</button>
+                        <button type="button" onclick="operacion(3)" class="btn btn-warning botones ">*</button>
+                        <button type="button" onclick="operacion(4)" class="btn btn-warning  botones">/</button>
+                    </div>
+                </di>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+
+    </div>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+```
+
+**app.js**
+
+```JavaScript
+
+function operacion(tipoOperacion) {
+
+    const forma = document.getElementById("forma");
+    let operandoA = forma['operandoA'];
+    let operandoB = forma['operandoB'];
+    operandoA = parseInt(operandoA.value);
+    operandoB = parseInt(operandoB.value);
+    let rta = resultado(tipoOperacion, operandoA, operandoB);
+    if (rta != -1) {
+        document.getElementById("error").style.display = "none";
+        forma['resultado'].value = rta;
+    } else {
+        document.getElementById("error").style.display = "block";
+        document.getElementById("error").innerHTML = "Datos no validos";
+    }
+
+}
+
+let resultado = (tipo, opA, opB) => {
+
+    let resultado = 0;
+
+    switch (tipo) {
+        case 1:
+            resultado = opA + opB;
+            break;
+        case 2:
+            resultado = opA - opB;
+            break;
+        case 3:
+            resultado = opA * opB;
+            break;
+        case 4:
+            resultado = opA / opB;
+            break;
+    }
+
+    if (isNaN(resultado))
+        resultado = -1;
+
+    return resultado;
+
+}
+```
+
+**sytles.css**
+
+```Css
+.botones{
+   width: 50px;
+   height: 50px;
+   margin: 5px;
+   font-size: 25px;
+
+}
+```
+
+
+
+
