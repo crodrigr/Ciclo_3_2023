@@ -323,6 +323,7 @@ let obtenerRta = (tipo, opA, opB) => {
             <div class="elemento">
                 <ul id="personas"></ul>
             </div>
+            <p id="error"></p>
          </div>
          <div class="contenedor">
             <div style="text-align: center;" >
@@ -331,7 +332,9 @@ let obtenerRta = (tipo, opA, opB) => {
             <form id="forma">
                <input type="text" id="nombre" placeholder="Nombre" />
                <input type="text" id="apellido" placeholder="Apellido" />
+               <input type="text" id="identificacion" placeholder="identificacion" />
             </form>
+
          </div>
     </body>
 </html>
@@ -341,10 +344,10 @@ let obtenerRta = (tipo, opA, opB) => {
 
 ```JavaScript
 const personas=[
-    new Persona('Juan','Perez'),
-    new Persona('Camilo','Rodriguez'),
-    new Persona('Celina','Torres'),
-    new Persona('Diego','Rangel')
+    new Persona('Juan','Perez','1001'),
+    new Persona('Camilo','Rodriguez','1002'),
+    new Persona('Celina','Torres','1003'),
+    new Persona('Diego','Rangel','1004')
 ];
 
 let listPersonas=()=>{
@@ -352,7 +355,7 @@ let listPersonas=()=>{
      let texto="";
      for(let persona of personas){
          console.log(persona);
-         texto+=`<li>${persona.nombre} ${persona.apellido}</li>`;
+         texto+=`<li>${persona.nombre} ${persona.apellido} ${persona.identificacion}</li>`;
      }
      document.getElementById("personas").innerHTML=texto;
 
@@ -362,11 +365,20 @@ let agregarPersona=()=>{
     const forma=document.forms["forma"];
     const nombre=forma["nombre"];
     const apellido=forma["apellido"];
+    const identificacion=forma["identificacion"];
     if(nombre.value!="" && apellido.value!=""){
-        const persona=new Persona(nombre.value,apellido.value);
-        console.log(persona);
+        let p=personas.find(x=>x.identificacion==identificacion.value);
+        if(p==null){
+        document.getElementById("error").style.display="none";
+        const persona=new Persona(nombre.value,apellido.value,identificacion.value);
+        console.log(persona);        
         personas.push(persona);
         listPersonas();
+        }else{
+            document.getElementById("error").style.display="block";
+            document.getElementById("error").innerHTML=`Ya existe una persona con esa identificación: ${identificacion.value}`
+            console.log("Ya existe una persona con esa identificación: "+identificacion.value);
+        }
     }else{
         console.log("No hay información que agregar");
     }
@@ -377,9 +389,10 @@ let agregarPersona=()=>{
 
 ```JavaScript
 class Persona{
-  constructor(nombre,apellido){
+  constructor(nombre,apellido,identificacion){
     this._nombre=nombre;
     this._apellido=apellido;
+    this._identificacion=identificacion
   }
 
   get nombre(){
@@ -396,6 +409,14 @@ class Persona{
 
   set apellido(apellido){
     this.apellido=apellido;
+  }
+
+  get identificacion(){
+    return this._identificacion;
+  }
+
+  set identificacion(identificacion){
+    this._identificacion=identificacion;
   }
 
 
@@ -422,7 +443,7 @@ html {
   }
   
   .contenedor {
-    max-width: 400px;
+    max-width: 500px;
     margin: 50px auto;
     background: white;
     border-radius: 5px;
