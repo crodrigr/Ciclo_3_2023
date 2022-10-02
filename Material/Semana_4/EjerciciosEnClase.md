@@ -295,5 +295,197 @@ let obtenerRta = (tipo, opA, opB) => {
 ```
 
 
+## 5. Add listado de personas
+
+![image](https://user-images.githubusercontent.com/31961588/193434630-3971439e-0020-4b13-8dea-5c0607034a77.png)
+
+**index.html**
+
+```Html
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Listado de personas</title>
+       <link rel="stylesheet" href="css/estilos.css" />
+       <script src="js/persona.js"></script>
+       <script src="js/app.js"></script>
+    </head>
+    <body onload="listPersonas()">
+         <div class="contenedor" id="cabecero">
+            <h1>Listado de Personas</h1>
+         </div>
+         <div class="contenedor">
+            <div class="elemento">
+                <ul id="personas"></ul>
+            </div>
+         </div>
+         <div class="contenedor">
+            <div style="text-align: center;" >
+              <button style="cursor:pointer" onclick="agregarPersona()">+</button>
+            </div>
+            <form id="forma">
+               <input type="text" id="nombre" placeholder="Nombre" />
+               <input type="text" id="apellido" placeholder="Apellido" />
+            </form>
+         </div>
+    </body>
+</html>
+```
+
+**app.js**
+
+```JavaScript
+const personas=[
+    new Persona('Juan','Perez'),
+    new Persona('Camilo','Rodriguez'),
+    new Persona('Celina','Torres'),
+    new Persona('Diego','Rangel')
+];
+
+let listPersonas=()=>{
+     console.log("Mostrando el listado de personas");
+     let texto="";
+     for(let persona of personas){
+         console.log(persona);
+         texto+=`<li>${persona.nombre} ${persona.apellido}</li>`;
+     }
+     document.getElementById("personas").innerHTML=texto;
+
+}
+
+let agregarPersona=()=>{
+    const forma=document.forms["forma"];
+    const nombre=forma["nombre"];
+    const apellido=forma["apellido"];
+    if(nombre.value!="" && apellido.value!=""){
+        const persona=new Persona(nombre.value,apellido.value);
+        console.log(persona);
+        personas.push(persona);
+        listPersonas();
+    }else{
+        console.log("No hay información que agregar");
+    }
+}
+```
+
+**persona.js**
+
+```JavaScript
+class Persona{
+  constructor(nombre,apellido){
+    this._nombre=nombre;
+    this._apellido=apellido;
+  }
+
+  get nombre(){
+    return this._nombre;
+  }
+
+  set nombre(nombre){
+    this._nombre=nombre;
+  }
+
+  get apellido(){
+    return this._apellido;
+  }
+
+  set apellido(apellido){
+    this.apellido=apellido;
+  }
 
 
+}
+```
+
+**estilos.css**
+
+```Css
+html {
+    background-color: #2196f3;
+    min-height: 1000px;
+    font-family: "helvetica neue";
+    background: url(fondo.png), #2196f3;
+    background: url(fondo.png),
+      -webkit-gradient(linear, right top, left top, from(#2196f3), to(#009688));
+    background: url(fondo.png),
+      linear-gradient(to left, #2196f3, #009688);
+  }
+  
+  h1 {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .contenedor {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #cabecero {
+    background-color: #3f51b5;
+    text-align: center;
+  }
+  
+  .elemento {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .elemento:last-child {
+    border-bottom: 0;
+  }
+  
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+  }
+  
+  form {
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  button {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #3f51b5;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 6px;
+    border-width: 0;
+  }
+  
+  input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-weight: 200;
+    width: 40%;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #3f51b5;
+  }
+  
+  ::placeholder {
+    color: grey;
+    opacity: 1;
+  }
+```
