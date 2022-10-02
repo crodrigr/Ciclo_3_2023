@@ -299,6 +299,11 @@ let obtenerRta = (tipo, opA, opB) => {
 
 ![image](https://user-images.githubusercontent.com/31961588/193434630-3971439e-0020-4b13-8dea-5c0607034a77.png)
 
+**Estructura del proyecto**
+
+![image](https://user-images.githubusercontent.com/31961588/193434740-d7c39e8a-c322-4c79-8c14-bb8790220764.png)
+
+
 **index.html**
 
 ```Html
