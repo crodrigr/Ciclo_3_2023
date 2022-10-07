@@ -22,3 +22,30 @@ El nombre del paquete no es entity, sino entities, se puede cambiar por la opcio
 ## 1.3.1 
 
 ![image](https://user-images.githubusercontent.com/31961588/194444433-190420c7-a819-4999-addb-561626ba0aa7.png)
+
+
+### 1.3.2 Definir los atributos de la clase cliente
+
+![image](https://user-images.githubusercontent.com/31961588/194675036-f3ce0787-3466-42c9-97da-3e9b2de735ad.png)
+
+### 1.3.3 Generar los métodos getter and setter
+
+![image](https://user-images.githubusercontent.com/31961588/194675071-aaa2a293-bcf4-430c-88ff-d9442cd89e81.png)
+
+### 1.3.4 Implementar en la clase cliente la interfaz serializable
+
+![image](https://user-images.githubusercontent.com/31961588/194675193-087468bf-970b-480d-bd42-ad750628b894.png)
+
+### 1.3.5 Add dependencia de validation
+
+![image](https://user-images.githubusercontent.com/31961588/194676438-1642b101-4d54-4c5d-b6a6-dd8093b4f63c.png)
+
+```Xml
+	<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+			<version>2.7.4</version>
+		</dependency>
+```
+
+
