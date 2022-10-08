@@ -36,7 +36,7 @@ El nombre del paquete no es entity, sino entities, se puede cambiar por la opcio
 
 ![image](https://user-images.githubusercontent.com/31961588/194675193-087468bf-970b-480d-bd42-ad750628b894.png)
 
-### 1.3.5 Add dependencia de validation
+### 1.3.5 Add dependencia de validation en pom.xml
 
 ![image](https://user-images.githubusercontent.com/31961588/194676438-1642b101-4d54-4c5d-b6a6-dd8093b4f63c.png)
 
@@ -48,4 +48,7 @@ El nombre del paquete no es entity, sino entities, se puede cambiar por la opcio
 		</dependency>
 ```
 
+### 1.3.6. Especificaciones de los atributos para validar a nivel de bd y memoria. 
+
+![image](https://user-images.githubusercontent.com/31961588/194676894-11e7e215-3451-40f2-8193-1ea8ee283fac.png)
 
