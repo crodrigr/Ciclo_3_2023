@@ -26,6 +26,8 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -37,6 +39,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mintic.models.entities.Cliente;
 import com.mintic.models.services.IClienteService;
 
+@CrossOrigin(origins = {"*"})
 @RestController
 @RequestMapping("/api")
 public class ClienteRestController {
@@ -135,7 +138,28 @@ public class ClienteRestController {
 		
 	}
 
-
+    @DeleteMapping("/cliente/{id}")
+    public ResponseEntity<?> delete(@PathVariable Long id){
+    	
+    	Map<String,Object> response=new HashMap<>();
+    	
+    	try {
+    	Cliente cliente=this.clienteService.findById(id);
+    	this.clienteService.delete(cliente);
+    	}catch(DataAccessException e) {
+    	  response.put("mensaje","Error al eliminar el cliente en la base de datos");
+    	  response.put("error", e.getMessage().concat(":").concat(e.getMostSpecificCause().getMessage()));
+    	  return new ResponseEntity<Map<String,Object>>(response,HttpStatus.INTERNAL_SERVER_ERROR);
+    	}
+    	
+    	response.put("mensaje","El cliente ha sido eliminado con exito!");
+  	    return new ResponseEntity<Map<String,Object>>(response,HttpStatus.OK);
+    	
+    	
+    	
+    }
+	
 }
+
 
 ```
