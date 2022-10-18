@@ -97,6 +97,46 @@
 ![image](https://user-images.githubusercontent.com/31961588/196553381-c0be167d-d29b-445a-b86e-64b93f031a79.png)
 
 
+## 4.6 Crear el repository
+
+![image](https://user-images.githubusercontent.com/31961588/196553669-845be0fc-75dd-4952-b062-d9b1febc870b.png)
+
+![image](https://user-images.githubusercontent.com/31961588/196553872-188954d8-87ff-43e2-a208-bef1a0a0996c.png)
+
+![image](https://user-images.githubusercontent.com/31961588/196553944-27b54466-454c-4f21-b4eb-a05439b6d37a.png)
+
+![image](https://user-images.githubusercontent.com/31961588/196554065-1a53e5b1-beb7-489e-9764-4931801edde8.png)
+
+
+## 4.7 Deploy de app
+
+
+### 4.7.1
+![image](https://user-images.githubusercontent.com/31961588/196553700-3a7d63d9-3420-4704-9f79-49d3a122a8a5.png)
+
+### 4.7.2
+![image](https://user-images.githubusercontent.com/31961588/196554112-dbde5fba-21fe-4fbc-a7a2-c525ba54867e.png)
+
+### 4.7.3
+![image](https://user-images.githubusercontent.com/31961588/196554185-e9de45da-e57f-4e80-9581-1b129375f452.png)
+
+### 4.7.4
+![image](https://user-images.githubusercontent.com/31961588/196554244-46fcd5df-5c27-4e80-b2f1-b4e1c6186f6b.png)
+
+### 4.7.5
+![image](https://user-images.githubusercontent.com/31961588/196554359-6cac44a6-60bd-47fa-9e04-6fb50ed50582.png)
+
+### 4.7.6
+![image](https://user-images.githubusercontent.com/31961588/196554498-59f93f10-1a47-40bc-9bdb-856724fcad44.png)
+
+### 4.7.7
+![image](https://user-images.githubusercontent.com/31961588/196554620-4517f6da-30c1-4ab8-9a66-b43c6dd3e9f6.png)
+
+
+
+
+
+
 
 
 
