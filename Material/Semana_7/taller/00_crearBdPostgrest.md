@@ -19,3 +19,16 @@
 
 ![image](https://user-images.githubusercontent.com/31961588/196477337-2fcff7bb-e2e7-47e5-9493-c3fde0891933.png)
 
+
+```Properties
+spring.datasource.url=jdbc:mysql://localhost:3306/db_mintic_12
+spring.datasource.username=root
+spring.datasource.password=admin
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.database-platform=org.hibernate.dialect.MySQL57Dialect
+spring.jpa.hibernate.ddl-auto=create-drop
+logging.level.org.hibernate.SQL=debug
+
+server.port=${PORT:8083}
+
+```
