@@ -121,12 +121,19 @@
 ![image](https://user-images.githubusercontent.com/31961588/196554185-e9de45da-e57f-4e80-9581-1b129375f452.png)
 
 ### 4.7.4
+
+Sube los cambios del proyecto y automaticamente hace el cland and build del proyecto en heroku. Luego lo ejectua en el servidor.
+
 ![image](https://user-images.githubusercontent.com/31961588/196554244-46fcd5df-5c27-4e80-b2f1-b4e1c6186f6b.png)
 
 ### 4.7.5
 ![image](https://user-images.githubusercontent.com/31961588/196554359-6cac44a6-60bd-47fa-9e04-6fb50ed50582.png)
 
 ### 4.7.6
+
+
+Iniciado le proyecto vamos a open app y copiamos la url, le adicionamos el path de los endpoints y podemos acceder. 
+
 ![image](https://user-images.githubusercontent.com/31961588/196554498-59f93f10-1a47-40bc-9bdb-856724fcad44.png)
 
 ### 4.7.7
