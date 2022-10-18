@@ -14,3 +14,8 @@
 ### 1.3 Permisos
 
 ![image](https://user-images.githubusercontent.com/31961588/196475779-410623e4-7659-4969-b8a5-26caf809748f.png)
+
+### 1.4 
+
+![image](https://user-images.githubusercontent.com/31961588/196477337-2fcff7bb-e2e7-47e5-9493-c3fde0891933.png)
+
