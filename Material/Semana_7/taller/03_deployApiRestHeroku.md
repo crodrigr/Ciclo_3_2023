@@ -63,6 +63,38 @@
 
 ![image](https://user-images.githubusercontent.com/31961588/196506836-a3238616-7ff6-4bbb-ad99-97c5f2d361b5.png)
 
+### 4.3.2
+
+![image](https://user-images.githubusercontent.com/31961588/196506996-89d9df97-1013-4698-9c9f-17fce766e742.png)
+
+### 4.3.3
+
+![image](https://user-images.githubusercontent.com/31961588/196507099-03e9ba67-4ddd-4e5b-adfb-4d71bf05a11d.png)
+
+
+## 4.4 Add postgresql al proyecto
+
+![image](https://user-images.githubusercontent.com/31961588/196552175-0fb0bb85-89ed-4236-b982-ce26a54b274e.png)
+
+![image](https://user-images.githubusercontent.com/31961588/196552240-022e1ab4-3428-4bb7-ba4a-7d80a19b9bf0.png)
+
+![image](https://user-images.githubusercontent.com/31961588/196552277-93b7fbd4-3bd8-4cae-b5cd-1d4686909471.png)
+
+## 4.5 Configura aplication.propertis con las credenciales de heroku postgres 
+
+### 4.5.1
+
+![image](https://user-images.githubusercontent.com/31961588/196552772-c0675bef-1f8e-4cbe-ae27-6c0b4bccd342.png)
+
+
+### 4.5.2
+![image](https://user-images.githubusercontent.com/31961588/196552898-397efb8a-32ad-4303-b67d-ad5dabebb2c1.png)
+
+### 4.5.3
+![image](https://user-images.githubusercontent.com/31961588/196553315-64967f82-5816-4f2f-8dc4-8b9c5806e302.png)
+
+### 4.5.4
+![image](https://user-images.githubusercontent.com/31961588/196553381-c0be167d-d29b-445a-b86e-64b93f031a79.png)
 
 
 
