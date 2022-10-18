@@ -122,7 +122,7 @@
 
 ### 4.7.4
 
-Sube los cambios del proyecto y automaticamente hace el cland and build del proyecto en heroku. Luego lo ejectua en el servidor.
+Sube los cambios del proyecto y automaticamente hace el cleand and build del proyecto en heroku. Luego lo ejectua en el servidor.
 
 ![image](https://user-images.githubusercontent.com/31961588/196554244-46fcd5df-5c27-4e80-b2f1-b4e1c6186f6b.png)
 
@@ -132,7 +132,7 @@ Sube los cambios del proyecto y automaticamente hace el cland and build del proy
 ### 4.7.6
 
 
-Iniciado le proyecto vamos a open app y copiamos la url, le adicionamos el path de los endpoints y podemos acceder. 
+Iniciado el proyecto en open app se copia la url, se adiciona el path de los endpoints y se accede a los servicios de apiRest.  
 
 ![image](https://user-images.githubusercontent.com/31961588/196554498-59f93f10-1a47-40bc-9bdb-856724fcad44.png)
 
