@@ -33,4 +33,38 @@
 ### 3.4
 ![image](https://user-images.githubusercontent.com/31961588/196497754-d311edfb-d1ca-4171-925f-b96f293ee54f.png)
 
+## 4 Deploy
+
+### 4.1 En propiedades de proyecto copiar el path 
+
+![image](https://user-images.githubusercontent.com/31961588/196505608-e5f7e523-e304-4376-bc5c-bbf713404ab2.png)
+
+### 4.1.1
+
+![image](https://user-images.githubusercontent.com/31961588/196505731-290e975b-389c-4b45-9726-c15ef801f418.png)
+
+### 4.2 Abrir cmd  y pegar
+
+![image](https://user-images.githubusercontent.com/31961588/196505879-dd2e6145-e745-436d-a6a5-8984eeaacd9f.png)
+
+### 4.3 Heroku login
+
+![image](https://user-images.githubusercontent.com/31961588/196506040-c676588b-bd31-4e68-a54d-48688fd61cc1.png)
+
+### 4.3.1
+
+![image](https://user-images.githubusercontent.com/31961588/196506369-cf3f4f31-60b8-40f0-a7d7-3b596b1f822e.png)
+
+### 4.3.2
+
+![image](https://user-images.githubusercontent.com/31961588/196506460-ba6d8559-4c28-482e-bbfe-b78d183f4ed7.png)
+
+### 4.3.1
+
+![image](https://user-images.githubusercontent.com/31961588/196506836-a3238616-7ff6-4bbb-ad99-97c5f2d361b5.png)
+
+
+
+
+
 
