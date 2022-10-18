@@ -4,7 +4,7 @@
 
 ### 1.1 Usuario
 
-![image](https://user-images.githubusercontent.com/31961588/196475898-af164be5-a5d9-4c5b-939d-d0f91c08a30d.png)
+![image](https://user-images.githubusercontent.com/31961588/196477072-e81916bc-4cbe-4c6f-b255-2b736ab940ad.png)
 
 ### 1.2 Pasword
 
