@@ -20,6 +20,8 @@
 ![image](https://user-images.githubusercontent.com/31961588/196477337-2fcff7bb-e2e7-47e5-9493-c3fde0891933.png)
 
 
+**Configuración en mysql**
+
 ```Properties
 spring.datasource.url=jdbc:mysql://localhost:3306/db_mintic_12
 spring.datasource.username=root
