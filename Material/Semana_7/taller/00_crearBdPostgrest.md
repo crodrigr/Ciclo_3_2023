@@ -31,6 +31,17 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQL57Dialect
 spring.jpa.hibernate.ddl-auto=create-drop
 logging.level.org.hibernate.SQL=debug
 
+
 server.port=${PORT:8083}
 
 ```
+
+## 2 Crear la base de datos
+
+### 2.1 
+
+![image](https://user-images.githubusercontent.com/31961588/196480224-e83a1b83-65e5-4f34-97cc-3cdfcbf18aac.png)
+
+## 2.2
+
+![image](https://user-images.githubusercontent.com/31961588/196480652-ff034b57-ed68-421c-9a71-d84e3f0f8f5e.png)
