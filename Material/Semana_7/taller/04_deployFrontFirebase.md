@@ -41,11 +41,13 @@ Para abrir una cuenta en firebase se debe hacer con un emial de google.
 
 #### 3.1 
 
-![image](https://user-images.githubusercontent.com/31961588/196729349-9636027d-e25c-47d9-b44b-657f569268b1.png)
+![image](https://user-images.githubusercontent.com/31961588/196743913-024c19c2-6f05-4d5c-8286-b3a6723ffaaa.png)
 
-### 3.2 Instalación de firebase con npm 
 
-![image](https://user-images.githubusercontent.com/31961588/196729745-5d8fd670-af63-42b0-909a-58796e179e94.png)
+![image](https://user-images.githubusercontent.com/31961588/196743987-54aaadad-0406-444d-a1f1-568311f28762.png)
+
+![image](https://user-images.githubusercontent.com/31961588/196744031-20d6a64a-0689-4310-b8c8-c9d678f4cd11.png)
+
 
 #### 3.2.1 
 
@@ -94,14 +96,7 @@ Para abrir una cuenta en firebase se debe hacer con un emial de google.
 
 
 
-### Resumen 
 
-![image](https://user-images.githubusercontent.com/31961588/196743913-024c19c2-6f05-4d5c-8286-b3a6723ffaaa.png)
-
-
-![image](https://user-images.githubusercontent.com/31961588/196743987-54aaadad-0406-444d-a1f1-568311f28762.png)
-
-![image](https://user-images.githubusercontent.com/31961588/196744031-20d6a64a-0689-4310-b8c8-c9d678f4cd11.png)
 
 
 
