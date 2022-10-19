@@ -71,6 +71,7 @@ Para abrir una cuenta en firebase se debe hacer con un emial de google.
 
 ![image](https://user-images.githubusercontent.com/31961588/196734554-a9095a05-8cda-4846-95df-58a4636e8d6c.png)
 
+
 ### 3.2.7 Con la flechas nos movemos arriba y abajo, y con la barra space selecionar (*)
 
 ![image](https://user-images.githubusercontent.com/31961588/196735292-0ffc752f-0224-4e84-bf41-7a0488e5030f.png)
@@ -83,17 +84,26 @@ Para abrir una cuenta en firebase se debe hacer con un emial de google.
 
 ### 3.2.8
 
-![image](https://user-images.githubusercontent.com/31961588/196740767-08f55304-5cc2-4e0c-b46b-ea77c3f785d1.png)
+![image](https://user-images.githubusercontent.com/31961588/196765748-b400ebda-d624-4be6-9ee9-c532d8bd610b.png)
 
-![image](https://user-images.githubusercontent.com/31961588/196741035-ac820daa-81c6-47cd-857b-c0790cc17e01.png)
 
-![image](https://user-images.githubusercontent.com/31961588/196741156-055bfb42-8674-4b52-9bf9-3552b7271030.png)
+![image](https://user-images.githubusercontent.com/31961588/196766033-ce335919-cd7f-4d88-9b4b-c4e001d53d64.png)
 
-![image](https://user-images.githubusercontent.com/31961588/196741321-5f515326-919a-4641-9c20-81575de188e4.png)
 
-![image](https://user-images.githubusercontent.com/31961588/196741417-bea939b7-7b02-4574-a5f7-d3ae70aad6e5.png)
+![image](https://user-images.githubusercontent.com/31961588/196766139-2c9e3a36-172b-417d-b975-2fbbea20bef0.png)
 
-![image](https://user-images.githubusercontent.com/31961588/196741779-036b9b4d-78e6-4f0b-957f-bf63186b9edf.png)
+
+
+### Resumen 
+
+![image](https://user-images.githubusercontent.com/31961588/196743913-024c19c2-6f05-4d5c-8286-b3a6723ffaaa.png)
+
+
+![image](https://user-images.githubusercontent.com/31961588/196743987-54aaadad-0406-444d-a1f1-568311f28762.png)
+
+![image](https://user-images.githubusercontent.com/31961588/196744031-20d6a64a-0689-4310-b8c8-c9d678f4cd11.png)
+
+
 
 
 
