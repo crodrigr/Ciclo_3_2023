@@ -2,6 +2,8 @@
 
 ## 1 Crear usuario de postgrest
 
+[Dowload Postgresql](https://www.postgresql.org/download/)
+
 ### 1.1 Usuario
 
 ![image](https://user-images.githubusercontent.com/31961588/196477072-e81916bc-4cbe-4c6f-b255-2b736ab940ad.png)
